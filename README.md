@@ -1,10 +1,8 @@
 # MapGen
-Map Generator for RPG Games.
+MapGen uses Procedural Generation to generate RPG maps both archipelago and continent.
+It also generate structures.
 
-Based in Procedural Generation and Auto Image Edit.
-
-For configuration please edit this area in the code:
-
+The parameters above can be modify to generate other kinds of maps:
 * softness = 9  # How Many times the softness code will run (More doesnt mean better)
 * structures = True
 * seeds = None  # The Gen Seed (None = Random)
@@ -12,4 +10,4 @@ For configuration please edit this area in the code:
 
 Example:
 
-![alt text](https://github.com/JCGCosta/MapGen/blob/master/map.jpg?raw=true)
+![alt text](https://github.com/JCGCosta/2dRPG-MapGenerator/blob/main/src/map.jpg?raw=true)
